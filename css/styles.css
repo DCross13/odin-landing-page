@@ -10,18 +10,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 240px;
-    padding-right: 240px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .header .logo {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header .right-links ul {
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0px;
     display: flex;
     gap: 32px;
@@ -29,5 +30,54 @@ body {
 
 .header .right-links a {
     text-decoration: none;
+    color: #e5e7eb;
+}
+
+.top-container{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
     color: white;
+    padding: 80px 10% 80px 10%;
+    gap: 120px;
+}
+
+.text-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.text-col h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.text col p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text-col button {
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    font-family: "Roboto";
+    font-weight: bold;
+    width: 100px;
+}
+
+.img-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 600px;
+    height: 250px;
 }
