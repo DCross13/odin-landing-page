@@ -154,3 +154,60 @@ body {
     font-size: 24px;
     font-weight: bolder;
 }
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+    color: #f9faf8;
+}
+
+.action-box {
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 32px 64px;
+    gap: 64px
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-text h1 {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.action-text p {
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.action-button button {
+    border: #f9faf8;
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    font-family: "Roboto";
+    font-weight: bold;
+    width: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px;
+}
